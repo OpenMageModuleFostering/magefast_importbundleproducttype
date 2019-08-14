@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<package>
+    <name>Magefast_ImportBundleProductType</name>
+    <version>1.0.1</version>
+    <stability>stable</stability>
+    <license>Academic Free License (AFL)</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Add support for product type - BUNDLE, in Magento module Mage_ImportExport</summary>
+    <description>The extension will add new product type for Bundle product. Will available add/update products data via standard Magento import, for Bundle products type.&#xD;
+&#xD;
+By default Bundle product type not supported for import data via CSV Mage_ImportExport module.&#xD;
+&#xD;
+After install extension will available add/update data for Bundled products via standart Magento Import module (in top menu System - Import/Export - Import).</description>
+    <notes>First release for community.&#xD;
+</notes>
+    <authors><author><name>Alex</name><user>alexhost</user><email>magento@magefast.com</email></author></authors>
+    <date>2013-10-02</date>
+    <time>08:52:39</time>
+    <contents><target name="mage"><dir name="app"><dir name="code"><dir name="community"><dir name="Magefast"><dir name="ImportBundleProductType"><dir name="Model"><dir name="Import"><dir name="Entity"><dir name="Product"><dir name="Type"><file name="Bundle.php" hash="cb973b8d028ef2e257159ef6b1bb46ee"/></dir></dir></dir></dir></dir><dir name="etc"><file name="config.xml" hash="79c684324d463b45a6a8b9ead26e9854"/></dir></dir></dir></dir></dir><dir name="etc"><dir name="modules"><file name="Magefast_ImportBundleProductType.xml" hash="78a799642252c9f50a0167be88cfedca"/></dir></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.2.0</min><max>6.0.0</max></php></required></dependencies>
+</package>
