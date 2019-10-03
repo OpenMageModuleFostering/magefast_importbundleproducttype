@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/Magefast_ImportBundleProductType",
+    "name": "OpenMageModuleFostering\/Magefast_ImportBundleProductType",
     "type": "magento-module",
     "license": "Academic-Free-License-(AFL)",
     "homepage": "",
     "description": "Add support for product type - BUNDLE, in Magento module Mage_ImportExport",
     "authors": [
-    {
-        "name": "Alex",
-        "email": "magento@magefast.com"
-    }
-],
+        {
+            "name": "Alex",
+            "email": "magento@magefast.com"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
