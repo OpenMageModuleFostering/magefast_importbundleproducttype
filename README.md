@@ -1,3 +1,5 @@
+
+
 ## Original Package Description
 
 Add support for product type - BUNDLE, in Magento module Mage_ImportExport
